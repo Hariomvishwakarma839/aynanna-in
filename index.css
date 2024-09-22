@@ -1,0 +1,733 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#main-logo {
+    /* border: 2px solid; */
+    height:5em;
+    width:5em;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+}
+
+
+#sub-nav{
+    /* border: 2px solid; */
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub-nav1{
+    /* border: 5px solid; */
+    height: 200px;
+}
+#demo1 ol{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+#demo1 ol li{
+    height: 40px;
+    width: 60px;
+}
+#sub-nav1 svg{
+    width: 60px;
+    height: 30px;
+    fill: none;
+}
+#demo2{
+    /* border: 2px solid; */
+    position:absolute;
+    left: 24%;
+    top: 25%;
+}
+#demo2 ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:50em;
+    list-style: none;
+
+}
+#demo3{
+    /* border: 2px solid; */
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+#demo3 ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    list-style: none;
+}
+#sub-nav1 p{
+    height:5em;
+    width:5em;
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    font-size: 60px;
+}
+
+#div4{
+    height: 115.64px;
+    width: 1349px;
+    padding: 32px*50px;
+
+}
+#p2{
+    text-align: center;
+}
+.nav{
+    height: 64px;
+    width: 1349px;
+}
+#left{
+    float: right;
+}
+#rigth{
+    float: left;
+}
+img{
+    width: 100%;
+    /* height: 758.81px; */
+}
+
+
+
+
+
+
+
+
+#fsection{
+    height: 39px;
+    width: 1349px;
+    color: #212121;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0px;
+} 
+/* 
+
+#fsectionh1{
+    height: 39.88px;
+    width: 1349px;
+    margin:  0px 0px 32px;
+    padding: 0px 50px;
+    background-color: white;
+} */
+#fsectionh1{
+    float: left;
+    height: 30.34px;
+    width: 749.39px;
+}
+a{
+    float: right;
+    background-color: black;
+    margin-top: 8px;
+}
+
+
+/* #kutr{
+    height: 39.88px;
+    width: 1349px;
+    margin:  0px 0px 32px;
+    padding: 0px 50px;
+    background-color: white;
+}
+#KURTAB{
+    float: left;
+    height: 30.34px;
+    width: 749.39px;
+} */
+a{
+    float: right;
+    background-color: black;
+    margin-top: 8px;
+}
+/* .arro left{
+    height: 150px;
+    cursor: pointer;
+    transform:rotate(180degree) ;
+}
+.arro right{
+    height: 150px;
+    cursor: pointer;
+    transform: rotate(180degree);
+
+}
+.right{
+    transform: rotate(180degree);
+} */
+
+.card {
+    width: 200px;
+    /* border:1px solid gray;
+    box-shadow: 2px 2px 2px gray; */
+    padding: 10px;
+    margin: 10px;
+    gap: 50px;
+}
+.card-header {
+    font-family: Arial;
+    text-align: center;
+}
+.card-body {
+    font-family: Arial;
+    text-align: center;
+    color:white;
+    height: 78;
+}
+.card-footer {
+    text-align: center;
+    font-family: Arial;
+}
+.card-img {
+    width: 100%;
+    height: 70%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#div5e{
+    height: 39.88px;
+    width: 1349px;
+    margin:  0px 0px 32px;
+    padding: 0px 50px;
+    background-color: white;
+}
+#kurta{
+    height: 700px;
+    width: 1349px;
+    margin:  0px 0px 32px;
+    padding: 0px 50px;
+    background-color: white;
+}
+/* #div6eh1{
+    float: left;
+    height: 30.34px;
+    width: 749.39px;
+}
+a{
+    float: right;
+    background-color: black;
+    margin-top: 8px;
+} */
+/* #before{ */
+    height: 763.48px;
+    width: 1349px;
+    background-color: red;
+    display: flex;
+/* } */
+
+ 
+#kurta{
+    height: 39.88px;
+    width: 1349px;
+    margin:  0px 0px 32px;
+    padding: 0px 50px;
+    background-color: white;
+}
+#kurtah1{
+    float: left;
+    height: 30.34px;
+    width: 749.39px;
+}
+a{
+    float: right;
+    background-color:white;
+    margin-top: 8px;
+}
+
+
+
+
+#div2{
+    background-color: white;
+    height: 763.48;
+    width: 1349px;
+    display: flex;
+    
+
+}
+#div2 div1 div2 div3 div4{
+    display: inline-flexbox;
+    /* border: 2px solid; */
+}
+#div1{
+    background-color: white;
+    height:763.48px;
+    width: 377.25;
+
+
+}
+#div2{
+    background-color:white;
+    height:763.48px;
+    width: 377.25;
+
+}
+#div3{
+    background-color:white;
+    height:763.48px;
+    width: 377.25;
+
+}
+#div4{
+    background-color:white;
+    height:763.48px;
+    width: 377.25;
+
+}
+
+/* #be{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 763.48px;
+    background-color: black;
+}
+#be diva1{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    
+}
+#be diva2{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+}
+#be diva3{
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+}
+#be diva4{
+    background-color: brown;
+    height: 60px;
+    width: 60px;
+} */
+
+
+a{
+    float: right;
+    background-color: white;
+    margin-top: 8px;
+}
+
+
+#divfooter{
+    background-color: white;
+    color: black;
+    height: 763.78px;
+    display: flex;
+}
+
+#div01{
+    /* background-color: red;
+    border: 2px solid yellow; */
+    height: 763.78p;
+    width:100%px;
+    text-align: center;
+}
+#div02{
+    /* background-color: brown;
+    border: 2px solid yellow; */
+    height: 763.78px;
+    width:27%;
+    text-align: center;
+}
+#div03{
+    /* background-color:blue;
+    border: 2px solid yellow; */
+    height: 763.8px;
+    width:27%;
+    text-align: center;
+}
+#div04{
+    /* background-color: green;
+    border: 2px solid yellow; */
+    height: 763.8px;
+    width:27%;
+    text-align:center;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#footer1{
+    height:320.25px ;
+    width:452.39px ;
+    color:black
+    display:grid;
+    
+}
+
+
+
+
+#saree{
+    display: inline-block;
+    display: flex;
+    height: 625.56px;
+    width: 1349px;
+}
+.card1{
+    width: 351.72px;
+    display: inline-block;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.card2{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card3{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card4{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card5{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card6{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card7{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card8{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.sareename{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.Poduct price{
+    text-align: center;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    background-color: white;
+}
+
+
+
+#saree{
+    display: inline-block;
+    display: flex;
+}
+#kurta{
+    display: inline-block;
+    display: flex;
+}
+#kurtasection{
+    height: 700pxpx;
+    width: 100%;
+}
+.card1{
+    width: 351.72px;
+    display: inline-block;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.card2{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card3{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card4{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card5{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card6{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card7{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.card8{
+    width: 351.72px;
+    height: 526.58px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.sareename{
+    text-align: center;
+    background-color: white;
+    color:white;
+}
+.Poduct price{
+    text-align: center;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    background-color: white;
+}
+
+#categarize{
+    height: 30px;
+    width: 100%;
+}
+.categoryh1{
+    text-align: center;
+}
+#category{
+    display: inline-block;
+    display: flex;
+}
+#categorysection{
+    height: 700pxpx;
+    width: 100%;
+}
+
+
+
+/* <<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#saresection{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+
+}
+.slider-contaner{
+
+    position: relative;
+    overflow-x: hidden;
+    height: 600px;
+}
+.slider-width{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    left: 0;
+    top: 0;
+    transition: 0.4s ease-in-out;
+}
+.item{
+    background:white;
+    
+    width:300px;
+    height: 200px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+} 
+.btn{
+    background-color:white;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding:  6px 12px;
+    cursor:absolute;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.btn:nth-child(2){
+    margin-left: -74px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<section first>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#section1{
+    height: 39px;
+    width: 1349px;
+    /* background-color: black; */
+    color: white;
+}
+#h1div{
+    height: 39.88px;
+    width: 1349px;
+    color: white;
+    background-color: white;
+}
+h2{
+    float: left;
+}
+button{
+    float:right;
+    margin-left: 10px;
+}
+/* # sections{
+    height: 626.56px;
+    width: 1349px;
+    margin: 0px -50px;
+    padding:0px 50px;
+    background-color: blue;
+    color: white; */
+    
+}
+section1>=cardsection{
+    height:39px;
+
+    width:1349px;
+
+}
+.card1{
+    height: ;
+    width: ;
+    border: 2px solid white;
+}
+.card2{
+    height: ;
+    width: ;
+    border: 2px solid white;
+}
+.card3{
+    height: ;
+    width: ;
+    border: 2px solid white;
+}
+.card4{
+    height: ;
+    width: ;
+    border: 2px solid white;
+}
+#divb{
+    display: flex;
+    height: 698.44px;
+    width: 1349px;
+}
+#sectionforkurta{
+    height: 762.44px;
+    width: 1349px;
+    background-color: white;
+    
+}
+#SECTIONB{
+    height: 762.44px;
+    width: 1349px;
+    background-color: white;
+}
+#section2b{
+    height:526.57px;
+    width: 351.72px;
+    ;
+}
+
+#sectionkurta{
+    background-color: 
+    height: 762.44px;
+    width: 1349px;
+}
+#curtac1{
+    height: ;
+    width: ;
+    color: white;
+}
+#h2div{
+    height:39.88px;
+    width: 1349px;
+    color: white;
+}
+
+
+
+
+ 
+
+ 
+
+
+
+
+
